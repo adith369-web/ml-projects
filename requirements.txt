@@ -1,0 +1,28 @@
+# Core Machine Learning & Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jupyter>=1.0.0
+
+# Advanced ML & Deep Learning
+torch>=2.0.0 # or tensorflow>=2.14.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+keras>=3.0.0
+xgboost>=2.0.0
+
+# Drug Design & Cheminformatics
+rdkit>=2023.09.4
+mordred>=1.2.0
+deepchem>=2.7.0
+biopython>=1.83
+
+# Optimization & Parallel Processing
+scipy>=1.11.0
+joblib>=1.3.0
+
+# Visualization (3D Molecules)
+py3Dmol>=1.0.0
+ipywidgets>=8.1.0
