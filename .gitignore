@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+chemml/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Data files (optional — ignore if you  don’t want to track them)
+*.csv
+*.tsv
+
+# Secrets (optional —  may for future)
+.env
