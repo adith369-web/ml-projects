@@ -1,6 +1,6 @@
 ---
 marp: true
-theme: gaia
+theme: default
 title: Machine Learning Theory
 ---
 #  Machine Learning Theory
@@ -243,7 +243,7 @@ K-NN algorithm assumes the similarity between the new case/data and available ca
 ---
 it does not learn from the training set immediately instead it stores the dataset and at the time of classification, it performs an action on the dataset.
 **how does KNN works**?
-<img src="https://miro.medium.com/v2/resize:fit:1400/0*34SajbTO2C5Lvigs.png" width="40%">
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*34SajbTO2C5Lvigs.png" width="300" height="300">
 
 ---
 
