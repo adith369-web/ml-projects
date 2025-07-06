@@ -1,8 +1,8 @@
-# ml-projects 🧠🧪
+# ml-projects 
 
 Welcome to **ml-projects** — a cozy space where I explore machine learning and drug discovery using Python, PyTorch, and cheminformatics tools like RDKit and DeepChem.
 
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - Python 3.12
 - Jupyter Notebooks
@@ -12,12 +12,14 @@ Welcome to **ml-projects** — a cozy space where I explore machine learning and
 - Scikit-learn
 - Pandas, Numpy, Matplotlib, Seaborn
 
-## 📂 Project Structure
+##  Project Structure
 ml-projects/
 ├── requirements.txt
-├── Untitled.ipynb
+├── numpynotes.ipynb
+├── MLnotes.md
+├──scipynotes.ipynb
 └── chemml/         
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repo  
 2. Set up a virtual environment  
