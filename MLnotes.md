@@ -243,14 +243,31 @@ K-NN algorithm assumes the similarity between the new case/data and available ca
 ---
 it does not learn from the training set immediately instead it stores the dataset and at the time of classification, it performs an action on the dataset.
 **how does KNN works**?
-<img src="https://miro.medium.com/v2/resize:fit:1400/0*34SajbTO2C5Lvigs.png" width="300" height="300">
+<img src="https://miro.medium.com/v2/resize:fit:1400/0*34SajbTO2C5Lvigs.png" width="400" height="400">
 
 ---
 
-• Step-1: Select the number K of the neighbours (we can decide the K)
-• Step-2: Calculate the Euclidean distance of K number of neighbours
-• Step-3: Take the k nearest neighbours as per the calculated Euclidean distance.
-• Step-4: Among these k neighbours, count the number of the data points in each category.
-• Step-5: Assign the new data points to that category for which the number of the neighbour is maximum.
-• Step-6: Our model is ready.
+• Step-1: Select the number K of the neighbours (we can decide the K)  
+
+• Step-2: Calculate the Euclidean distance of K number of neighbours  
+
+• Step-3: Take the k nearest neighbours as per the calculated Euclidean distance.  
+
+• Step-4: Among these k neighbours, count the number of the data points in each category.  
+
+• Step-5: Assign the new data points to that category for which the number of the neighbour is maximum.  
+
+• Step-6: Our model is ready.  
+
 note: Large values for K are good, better to be atleast greater than 5
+
+---
+**Feature Engineering**
+
+the problem of transforming row data into dataset is called feature engineering.
+so we need datasets with highly informative features, highly informative features are also called features with high predictive power.
+
+eg-average time session have higher predictive power for predicting whether the user will use the app in future.
+
+We say that a model has a low bias when it predicts well the training data.(it has no connection with same like bais term).
+
