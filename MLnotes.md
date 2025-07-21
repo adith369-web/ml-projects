@@ -46,7 +46,7 @@ Basic maths  like vector,set,addition,statistics,probability,Matrix properties a
 
 ---
 # Machine Learning Algorithms
-### <h2 style="text-decoration: underline;">general working principle until chapter 4</h2>
+### <h2 style="text-decoration: underline;">general working principle </h2>
 in supervised learning there will be an equation which contain weight and bais, there will another equation for called **loss function**, the loss function calculates error between predicted values (by the  formuala with some arbitary w and b) and actual values given in training data set, goal of training is to minimize the loss by adjusting model parameters (weight and bias)
 thus we will get the best w and b.
 if parameter is adjusted too strictly for all dataset it causes **overfitting**,in opposite way it causes **underfitting**.
