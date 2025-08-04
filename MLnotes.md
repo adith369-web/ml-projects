@@ -160,6 +160,51 @@ The square function is smooth, making optimization easier (gradient descent)
 Penalizes Large Errors
 Squaring amplifies large deviations 
 
+---
+
+**Optimization in Linear Regression**
+**Least Squares Method**
+- **Goal:** Find the best-fitting line by minimizing the sum of squared differences between actual and predicted values.
+- **Equation:**  $\hat{y}$ = $wx$ + $b$ 
+- **Mean Squared Error (MSE):**  
+  $$
+  \text{MSE} = \frac{1}{N} \sum_{i=1}^N (y_i - \hat{y}_i)^2
+  $$
+- **How it works:**  
+  - Take derivatives of MSE with respect to $w$ and $b$.
+  - Set derivatives to zero and solve for $w$ and $b$.
+  - Gives a direct, analytical solution (normal equation).
+
+---
+
+**Gradient Descent Method**
+- **Goal:** Iteratively adjust $w$ and $b$ to minimize the MSE.
+- **Algorithm:**
+  1. Start with initial values for $w$ and $b$.
+  2. Compute gradients:
+      - $\frac{\partial \text{MSE}}{\partial w}$
+      - $\frac{\partial \text{MSE}}{\partial b}$
+  3. Update parameters:
+      - $w := w - \alpha \frac{\partial \text{MSE}}{\partial w}$
+      - $b := b - \alpha \frac{\partial \text{MSE}}{\partial b}$
+      - $\alpha$ is the learning rate
+  4. Repeat until convergence (MSE stops decreasing).
+
+---
+
+- **Use case:**  
+  - Useful for large datasets or when analytical solution is not feasible.
+
+### Summary Table
+
+| Method           | Approach         | Speed (small data) | Speed (large data) | Use Case                |
+|------------------|------------------|--------------------|--------------------|-------------------------|
+| Least Squares    | Analytical       | Fast               | Slow               | Simple linear regression|
+| Gradient Descent | Iterative        | Moderate           | Fast               | Large/complex models    |
+
+
+---
+
 **Logistic Regression**
 it is a classification algoritm despite having regression in name.
 solves binary classification by mapping linear outputs(-&infin;, +&infin;) to probabilites (0-1) using sigmoid function.
